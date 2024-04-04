@@ -1,26 +1,20 @@
 <footer>
-    <section class="top-footer">
+    <!-- First widget  -->
+      <section class="top-footer">
         <div class="first widget-area">
-            <a href="<?php echo esc_url ( home_url() ); ?>">
-        <?php dynamic_sidebar('footer-widget-area-one'); ?>
-        </a>
+          <a href="<?php echo esc_url( home_url() );?>">
+            <?php dynamic_sidebar( 'footer-widget-area-one' ); ?>
+          </a>
+        </div>   
+        <!-- Second Widget  -->
+        <div class="second quarter widget-area">
+          <?php dynamic_sidebar( 'footer-widget-area-two' ); ?>
         </div>
-
-        <div class="second widget-area">
-        <?php dynamic_sidebar('footer-widget-area-two'); ?>
+        <!-- Third Widget  -->
+        <div class="third widget-area">
+          <?php dynamic_sidebar( 'footer-widget-area-three' ); ?>
         </div>
-
-        <div class="second widget-area">
-        <?php dynamic_sidebar('footer-widget-area-three'); ?>
-        </div>
-
-        <div class="second widget-area">
-        <?php dynamic_sidebar('footer-widget-area-four'); ?>
-        </div>
-
-        
-    </section>
-</footer>
-
-</body>
+      </section>
+    </footer>
+  </body>
 </html>
