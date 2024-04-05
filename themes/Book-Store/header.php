@@ -9,14 +9,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <!-- add our custom CSS file -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="<?php echo esc_url( home_url('/wp-content/themes/customtheme/assets/css/custom-styles.css')); ?>">
+    <link rel="stylesheet" href="<?php echo esc_url( home_url('/wp-content/themes/Book-Store/assets/css/custom-styles.css')); ?>">
     <!-- add our custom font -->
-  </head>
+  </head> 
   <body <?php body_class(); ?>>
     <header>
       <div>
         <a href="<?php echo esc_url( home_url() );?>">
-          <img src="<?php echo esc_url( home_url( '/wp-content/uploads/2024/01/aayush_logo.png' ) ); ?>" alt="logo"  style="width: 150px; height: 150px;">
+          <img src="<?php echo esc_url( home_url( '/wp-content/uploads/2024/01/aayush_logo.png' ) ); ?>" alt="logo"  style="width: 90px; height: 90px;">
         </a>
         <p>View my Books and homepage here </p>
       </div>
@@ -30,7 +30,8 @@
           ));
         ?>
         <ul class="menu">
-      <li><a href="<?php echo esc_url( home_url() ); ?>">Home</a></li>
+      <li><a href="<?php echo esc_url( home_url() ); ?>"></a></li>
+      <li><a href="http://localhost/WinterPHP/homepage-s1/">Home</a></li>
       <li><a href="http://localhost/WinterPHP/product/book-1/">View My Books</a></li>
    </ul>
       </nav>

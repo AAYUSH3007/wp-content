@@ -6,6 +6,10 @@
             <?php dynamic_sidebar( 'footer-widget-area-one' ); ?>
           </a>
         </div>   
+        <!-- Second Widget  -->
+        <div class="second quarter widget-area">
+          <?php dynamic_sidebar( 'footer-widget-area-two' ); ?>
+        </div>
       </section>
     </footer>
   </body>
