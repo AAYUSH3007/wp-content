@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Book Store
+ * Template Name: Flooring Company
  * Template Post Type: page
  */
 get_header();
@@ -60,8 +60,6 @@ get_header();
                 echo '<p>No carpet posts found</p>';
             endif;
             ?>
-
-            <!-- Similar loops for laminate and hardwood posts (with appropriate comments) -->
 
         </div><!-- .posts-list -->
     </main><!-- #main -->

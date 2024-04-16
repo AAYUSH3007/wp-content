@@ -17,7 +17,7 @@
 <header>
     <div>
         <a href="<?php echo esc_url(home_url()); ?>">
-            <img src="<?php echo esc_url(home_url('/wp-content/uploads/2024/01/aayush_logo.png')); ?>" alt="logo" style="width: 150px; height: 150px;">
+            <img src="<?php echo esc_url(home_url('/wp-content/uploads/2024/01/Logo.png')); ?>" alt="logo" style="width: 160px; height: 110px;">
         </a>
     </div>
     <nav>
